@@ -1,4 +1,5 @@
 pipeline {
+    agent none
     stages {
         stage('Integration- Tests') {
             agent {label 'master'}
