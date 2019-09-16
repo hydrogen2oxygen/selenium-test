@@ -6,6 +6,7 @@ pipeline {
             steps {
                 sh 'ls -l'
                 sh 'npm --version'
+                sh 'tail README.md'
             }
         }
     }
